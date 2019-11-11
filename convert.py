@@ -120,10 +120,10 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description = 'Convert voices using pre-trained CycleGAN model.')
 
-    training_data_dir_default = "./training_data" 
+    training_data_dir_default = "./" 
     model_dir_default = './model'
     model_name_default = 'sf1_tm1'
-    data_dir_default = './data/evaluation_all/SF1'
+    data_dir_default = './dataset/testA'
     conversion_direction_default = 'A2B'
     output_dir_default = './converted_voices'
     pc_default = True
