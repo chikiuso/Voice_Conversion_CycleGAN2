@@ -183,14 +183,14 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='Train CycleGAN-VC2 model')
 
-    train_A_dir_default = './data/vcc2016_training/SF1'
-    train_B_dir_default = './data/vcc2016_training/TM1'
-    training_data_dir_default = "./training_data"
+    train_A_dir_default = './dataset/trainA'
+    train_B_dir_default = './dataset/trainB'
+    training_data_dir_default = "./"
     model_dir_default = './model'
     model_name_default = 'sf1_tm1'
     random_seed_default = 0
-    validation_A_dir_default = './data/evaluation_all/SF1'
-    validation_B_dir_default = './data/evaluation_all/TM1'
+    validation_A_dir_default = './dataset/testA'
+    validation_B_dir_default = './dataset/testB'
     output_dir_default = './validation_output'
     tensorboard_log_dir_default = './log'
     MCEPs_dim_default = 24
