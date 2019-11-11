@@ -67,9 +67,9 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description = 'Train CycleGAN model for datasets.')
 
-    train_A_dir_default = './data/vcc2016_training/SF1'
-    train_B_dir_default = './data/vcc2016_training/TM1'
-    training_data_dir_default = './training_data'
+    train_A_dir_default = './dataset/trainA'
+    train_B_dir_default = './dataset/trainB'
+    training_data_dir_default = './'
 
     parser.add_argument('--train_A_dir', type = str, help = 'Directory for A.', default = train_A_dir_default)
     parser.add_argument('--train_B_dir', type = str, help = 'Directory for B.', default = train_B_dir_default)
